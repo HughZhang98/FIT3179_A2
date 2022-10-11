@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+  
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+
+<body>
+  <div id="vbox">
+    <div id="cpd"></div>
+    <div id="coffeeMap"></div>
+    <div id="gender"></div>
+    <div id="ctg"></div>
+    <div id="ct"></div>
+  </div>
+  
+</body>
+
+<script type="text/javascript">
+
+  var vg1 = "js/cup_per_day.json";
+  vegaEmbed('#cpd', vg1).then(function(result) {
+    // Access the Vega view instance
+  }).catch(console.error);
+
+  var vg2 = "js/coffee_map.json";
+  vegaEmbed('#coffeeMap', vg2).then(function(result) {
+    // Access the Vega view instance
+  }).catch(console.error);
+
+  var vg3 = "js/gender.json";
+  vegaEmbed('#gender', vg3).then(function(result) {
+    // Access the Vega view instance
+  }).catch(console.error);
+
+  var vg4 = "js/codeTime_gender.json";
+  vegaEmbed('#ctg', vg4).then(function(result) {
+    // Access the Vega view instance
+  }).catch(console.error);
+
+  var vg5 = "js/coffee_time.json";
+  vegaEmbed('#ct', vg5).then(function(result) {
+    // Access the Vega view instance
+  }).catch(console.error);
+</script>
+</html>

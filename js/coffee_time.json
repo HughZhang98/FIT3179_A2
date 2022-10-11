@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Coffee Time",
+  "width": 300,
+  "height": 300,
+  
+  "data": {
+    "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
+  },
+  "encoding": {
+    "x":{
+      "field":"CoffeeTime", 
+      "aggregate":"count",
+      "title":"Count"
+    },
+    "y":{
+      "field":"CoffeeTime",
+      "title":"Coffee Time"
+    },
+    "color":{"value":"#8c2d04"},
+    "tooltip": [
+      {"field": "CoffeeTime", "title": "Coffee Time"},
+      {"field": "CoffeeTime", "title": "Count","aggregate":"count"}
+    ]
+  },
+  "layer": [{
+    "mark": "bar"
+  },{
+    "mark":{
+      "type": "text",
+      "dx":10
+    },
+    "encoding": {
+      "text":{
+        "field": "CoffeeTime", 
+        "title": "Count",
+        "aggregate":"count"
+      }
+    }
+  }]
+}
