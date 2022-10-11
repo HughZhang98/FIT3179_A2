@@ -1,2 +1,2 @@
 # FIT3175_A2
-Url:
+URL: https://hughzhang98.github.io/FIT3175_A2/
