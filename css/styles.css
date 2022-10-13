@@ -1,7 +1,39 @@
 #vbox {
-  width: 50%;
+  width: 1080px;
   margin: 0 auto;
+  background-color: #ffb583;
 }
-#cpd {
-  padding-bottom: 2rem;
+header {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+  font-style: italic;
+  font-weight: bolder;
+  color: #ffff;
+  background-color: #8c2d04;
 }
+header h1{
+  padding-top: 1rem;
+}
+header p{
+  margin: 0 0 1rem 0 ;
+  padding: 0 0 1rem 0;
+  letter-spacing: 2px;
+}
+#coffeeMap #mapBox {
+  width: 100%;
+}
+#cpdBox, #genderBox, #ctgBox, #ctBox, #mapBox {
+  margin: 2rem 1rem;
+  padding: 0rem 1rem;
+  display: flex;
+}
+#mapBox {
+  flex-direction: column;
+}
+#cpdBox p, #genderBox p, #ctgBox p, #ctBox p, #mapBox p{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
