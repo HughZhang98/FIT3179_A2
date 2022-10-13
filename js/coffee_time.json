@@ -5,7 +5,7 @@
     "fontSize": 15
   },
   "width": 350,
-  "height": 250,
+  "height": 200,
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
   },
@@ -19,7 +19,7 @@
       "field":"CoffeeTime",
       "title":"Coffee Time"
     },
-    "color":{"value":"#8c2d04"},
+    "color":{"value":"#f58518"},
     "tooltip": [
       {"field": "CoffeeTime", "title": "Coffee Time"},
       {"field": "CoffeeTime", "title": "Count","aggregate":"count"}
