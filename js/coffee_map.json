@@ -1,7 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Coffee production by country in 2020",
-  "width": 800,
+  "title": {
+    "text":"Coffee production by country in 2020",
+    "fontSize":18
+  },
+  "width": "container",
   "height": 500,
   "projection": {"type": "equalEarth"},
   "data": {

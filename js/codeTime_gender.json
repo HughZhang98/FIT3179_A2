@@ -1,9 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Coding time and cups for genders",
-  "width": 300,
-  "height": 300,
-  
+  "title": {
+    "text":"Coding time and cups for genders",
+    "fontSize":18
+  },
+  "width": 385,
+  "height": 250,
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
   },

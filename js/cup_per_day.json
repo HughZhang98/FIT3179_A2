@@ -1,8 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Coffee Cups Per Day",
-  "width": 300,
-  "height": 300,
+  "title": {
+    "text":"Coffee cups per day",
+    "fontSize":15
+  },
+  "width": 450,
+  "height": 250,
   
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
