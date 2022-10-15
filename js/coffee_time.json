@@ -13,7 +13,8 @@
     },
     "y":{
       "field":"CoffeeTime",
-      "title":"Coffee Time"
+      "title":"Coffee Time",
+      "sort":"x"
     },
     "color":{"value":"#f58518"},
     "tooltip": [
