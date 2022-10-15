@@ -14,7 +14,7 @@
     "y":{
       "field":"CoffeeTime",
       "title":"Coffee Time",
-      "sort":"x"
+      "sort":"-x"
     },
     "color":{"value":"#f58518"},
     "tooltip": [
