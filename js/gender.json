@@ -1,11 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text":"Gender",
-    "fontSize":18
-  },
-  "width": 420,
-  "height": 200,
+  "width": 400,
+  "height": 220,
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
   },
@@ -16,7 +12,7 @@
   },{
     "mark":{
       "type": "text",
-      "radius": 180,
+      "radius": 130,
       "dy":-40
     },
     "encoding": {

@@ -1,11 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text":"Coffee Time",
-    "fontSize": 15
-  },
-  "width": 350,
-  "height": 200,
+  "width": 330,
+  "height": 220,
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
   },

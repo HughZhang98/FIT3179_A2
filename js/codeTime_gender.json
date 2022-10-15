@@ -1,45 +1,55 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text":"Coding time and cups for genders",
-    "fontSize":18
-  },
-  "width": 385,
-  "height": 200,
+  "width": 365,
+  "height": 240,
   "data": {
     "url": "https://raw.githubusercontent.com/HughZhang98/Homework-Week10/main/data/CoffeeAndCodeLT2018.csv"
   },
-  "layer":[{
-    "mark": {
-      "type": "line",
-      "point":true
-    }
-  },{
-    "mark":{
-      "type": "text",
-      "dy": -15
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": true
+      }
     },
-    "encoding": {
-      "text":{"field": "Gender", "title": "Count","aggregate":"count", "type": "quantitative"}
+    {
+      "mark": {
+        "type": "text",
+        "dy": -15
+      },
+      "encoding": {
+        "text": {
+          "field": "Gender",
+          "title": "Count",
+          "aggregate": "count",
+          "type": "quantitative"
+        }
+      }
     }
-  }],
+  ],
   "encoding": {
     "x": {
-      "field":"CodingHours",
-      "type":"quantitative",
-      "title":"Coding Time"
+      "field": "CodingHours",
+      "type": "quantitative",
+      "title": "Coding Time"
     },
-    "y":{
-      "field":"Gender",
-      "aggregate":"count",
-      "title":"Count"
+    "y": {
+      "field": "Gender",
+      "aggregate": "count",
+      "title": "Count"
     },
-    "color":{
+    "color": {
       "field": "Gender"
     },
-    "tooltip":[
-      {"field":"Gender"},
-      {"field":"Gender", "aggregate":"count","title":"Count"}
+    "tooltip": [
+      {
+        "field": "Gender"
+      },
+      {
+        "field": "Gender",
+        "aggregate": "count",
+        "title": "Count"
+      }
     ]
   }
 }
