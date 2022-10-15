@@ -13,33 +13,52 @@ header {
   background-color: #8c2d04;
 }
 header h1{
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  font-size: 55px;
+  letter-spacing: 10px;
 }
 header p{
   margin: 0 0 1rem 0 ;
   padding: 0 0 1rem 0;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+  font-size: 20px;
+}
+hr {
+  height: 2px;
+  width: 93%;
+  background: #8c2d04;
 }
 #coffeeMap #mapBox {
   width: 100%;
 }
-#cpdBox, #genderBox, #ctgBox, #ctBox, #mapBox {
-  margin: 3rem 1rem;
+#cpdBox, #genderBox, #ctgBox, #ctBox, #mapBox, #chBox, footer {
+  margin: 2rem;
   padding: 0rem 1rem;
+  display: flex; 
+}
+div h2 {
+  margin: 1rem 0 0 0;
+  padding: 0;
   display: flex;
-  /* border: 2px solid #8c2d04; */
-  
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 30px;
 }
 #mapBox {
   flex-direction: column;
 }
-#cpdBox p, #genderBox p, #ctgBox p, #ctBox p, #mapBox p, footer p{
+#coffeeMap{
+  margin-bottom: 2rem;
+}
+#cpdBox p, #genderBox p, #ctgBox p, #ctBox p, #mapBox p, #chBox p, footer p{
   margin: 0;
   padding: 0;
   font-size: 25px;
   letter-spacing: 1px;
+  text-align: justify;
 }
 footer p b{
   color: #f58518;
 }
+
 
